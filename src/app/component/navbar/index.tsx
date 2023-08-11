@@ -12,10 +12,10 @@ const NavBar = () => {
     setIsOpen(!isOpen);
   };
   return (
-    <header className="w-full py-4 px-8">
+    <header className="w-[100%] lg:w-full lg:py-4 lg:px-8 md:w-full md:py-4 md:px-8 sm:w-full sm:py-4 sm:px-8 ">
       <button
         aria-label="home-page"
-        className="flex-col justify-center items-center flex lg:hidden"
+        className="lg:flex-col lg:justify-center lg:items-center lg:hidden"
         onClick={handleClick}
       >
         <span
@@ -38,7 +38,7 @@ const NavBar = () => {
         <Image src="/logo.svg" alt="logo" width={150} height={50} />
       </div>
       <div className="hidden lg:block">
-        <nav className="w-full h-14 flex justify-between items-center">
+        <nav className="lg:w-full lg:h-14 lg:flex lg:justify-between lg:items-center">
           <div>
             <Image src="/logo.svg" alt="logo" width={100} height={100} />
           </div>
@@ -63,7 +63,7 @@ const NavBar = () => {
             <Link
               href="/Register"
               title="Register"
-              className=" bg-green-500 text-white flex px-6 py-2 rounded-lg"
+              className=" bg-green-500 text-white flex px-4 py-2 rounded-lg"
             >
               Register Now
               <Image
@@ -106,7 +106,7 @@ const NavBar = () => {
             <Link
               href="/Register"
               title="Register"
-              className=" bg-green-700 text-white flex px-6 py-2 rounded-lg"
+              className=" bg-green-700 text-white w-[120%] flex py-4 px-4 rounded-lg lg:flex lg:px-6 lg:py-2 lg:rounded-lg  md:flex md:px-6 md:py-2 md:rounded-lg sm:flex sm:px-6 sm:py-2 sm:rounded-lg "
             >
               Register Now
               <Image

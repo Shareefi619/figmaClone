@@ -3,13 +3,13 @@ import learnmoreimg from "../../../../public/icon.svg"
 import Image from "next/image";
 export default function LearnMore() {
   return (
-    <div className="grid grid-cols-3 gap-4 mx-12">
-      <div className="col-span-1 lg:py-16">
-        <Image src={learnmoreimg} alt="learnmore" className="w-full h-[100%]" />
+    <div className=" flex-initial w-full lg:w-full md:w-full sm:w-full grid grid-cols-3 gap-4 mx-12 lg:grid lg:grid-cols-3 lg:gap-4 lg:mx-12 md:grid md:grid-cols-3 md:gap-4 md:mx-12 sm:grid sm:grid-cols-3 sm:gap-4 sm:mx-12">
+      <div className="col-span-3 lg:col-span-1 md:col-span-1 sm:col-span-1 lg:py-16">
+        <Image src={learnmoreimg} alt="learnmore" className="w-[90%] h-[100%]" />
       </div>
 
-      <div className="col-span-2 py-8 px-10">
-        <h2 className=" w-10/12 text-4xl font-semibold mb-4 font-inter text-gray-600 md:text-2xl sm:text-lg">
+      <div className=" col-span-3 lg:col-span-2 md:col-span-2 sm:col-span-2 py-8 px-10">
+        <h2 className="w-full text-4xl font-semibold mb-4 font-inter text-gray-600 md:text-2xl sm:text-lg">
           The unseen of spending three years at Pixelgrade
         </h2>
         <p className="text-gray-500 mb-6 sm:text-sm">
