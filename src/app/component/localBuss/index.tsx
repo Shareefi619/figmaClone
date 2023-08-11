@@ -6,7 +6,7 @@ import icon3 from "../../../../public/Icon3.svg";
 import icon4 from "../../../../public/Icon4.svg";
 export default function LocalBuss() {
   return (
-    <div className="w-[100%] flex-start flex-col items-center justify-between p-16 lg:flex lg:flex-col lg:items-center lg:justify-between lg:p-16 md:flex md:flex-col md:items-center md:justify-between md:p-16 sm:flex sm:flex-col sm:items-center sm:justify-between sm:p-16 bg-aliceblue my-8 lg:w-full md:w-[750px]  sm:w-[672px]">
+    <div className=" w-[100%] flex-start flex-col items-center justify-between p-4 lg:flex lg:flex-col lg:items-center lg:justify-between lg:p-16 md:flex md:flex-col md:items-center md:justify-between md:p-16 sm:flex sm:flex-col sm:items-center sm:justify-between sm:p-16 bg-aliceblue my-8 lg:w-full md:w-[750px]  sm:w-[672px]">
       <div className="grid grid-cols-2 gap-4 mx-8 lg:grid lg:grid-cols-2 lg:gap-4 lg:mx-8 md:grid md:grid-cols-2 md:gap-4 md:mx-8 sm:grid sm:grid-cols-2 sm:gap-4 sm:mx-8">
         {/* Column 1 */}
         <div className="col-span-2 lg:col-span-1 md:col-span-1 sm:col-span-1">
@@ -22,7 +22,7 @@ export default function LocalBuss() {
         </div>
 
         {/* Column 2 */}
-        <div className="flex-start w-full col-span-2 lg:col-span-1 md:col-span-1 sm:col-span-1 lg:flex lg:flex-auto lg:mx-10 md:flex md:flex-auto md:mx-10 sm:flex sm:flex-auto sm:mx-10">
+        <div className="w-full -ml-10 col-span-2 lg:col-span-1 md:col-span-1 sm:col-span-1 lg:flex lg:flex-auto lg:mx-10 md:flex md:flex-auto md:mx-10 sm:flex sm:flex-auto sm:mx-10">
           <div className="grid grid-cols-2 gap-10 lg:grid lg:grid-cols-2 lg:gap-10 md:grid md:grid-cols-2 md:gap-10 sm:grid sm:grid-cols-2 sm:gap-10">
             <div className="col-span-1 flex items-center mx-6 lg:col-span-1 lg:flex lg:items-center lg:mx-6 md:col-span-1 md:flex md:items-center md:mx-6 sm:col-span-1 sm:flex sm:items-center sm:mx-6">
               <Image

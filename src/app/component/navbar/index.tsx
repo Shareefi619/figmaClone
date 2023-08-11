@@ -12,7 +12,7 @@ const NavBar = () => {
     setIsOpen(!isOpen);
   };
   return (
-    <header className="w-[100%] lg:w-full lg:py-4 lg:px-8 md:w-full md:py-4 md:px-8 sm:w-full sm:py-4 sm:px-8 ">
+    <header className=" w-[100%] lg:w-full lg:py-4 lg:px-8 md:w-full md:py-4 md:px-8 sm:w-full sm:py-4 sm:px-8 ">
       <button
         aria-label="home-page"
         className="lg:flex-col lg:justify-center lg:items-center lg:hidden"

@@ -7,7 +7,7 @@ import img2 from "../../../../public/m2.png";
 import img3 from "../../../../public/m3.png";
 export default function ManageSystem() {
   return (
-    <div className="w-[100%] flex-start flex-col items-center justify-center my-12 lg:flex lg:flex-col lg:items-center lg:justify-center lg:my-12 lg:w-full md:flex-col md:items-center md:justify-center md:my-12 md:w-full sm:flex-col sm:items-center sm:justify-center sm:my-12 sm:w-full">
+    <div className="w-[100%] flex-col items-center justify-center my-12 lg:flex lg:flex-col lg:items-center lg:justify-center lg:my-12 lg:w-full md:flex-col md:items-center md:justify-center md:my-12 md:w-full sm:flex-col sm:items-center sm:justify-center sm:my-12 sm:w-full">
       <div className="text-center mb-4 lg:text-center lg:mb-4 md:text-center md:mb-4 sm:text-center sm:mb-4">
         <h2 className="text-xl font-bold font-inter text-gray-700 py-4 px-6 w-2/3 mx-auto md:text-3xl sm:text-2xl">
           Manage your entire community in a single system
@@ -16,7 +16,7 @@ export default function ManageSystem() {
           Who is Nextcent suitable for?
         </p>
       </div>
-      <div className="grid grid-cols-12 gap-8 mx-8 lg:grid lg:grid-cols-12 lg:gap-8 lg:mx-8 md:grid md:grid-cols-12 md:gap-8 md:mx-8 sm:grid sm:grid-cols-12 sm:gap-8 sm:mx-8">
+      <div className="w-[280px] grid grid-cols-12 gap-4 ml-[34px] lg:grid lg:grid-cols-12 lg:gap-8 lg:mx-8 md:grid md:grid-cols-12 md:gap-8 md:mx-8 sm:grid sm:grid-cols-12 sm:gap-8 sm:mx-8">
         <div className="col-span-12 py-6 px-4 mx-4 my-4 border rounded-lg shadow-md lg:col-span-4 lg:py-6 lg:px-4 lg:mx-4 lg:my-4 lg:border lg:rounded-lg lg:shadow-md md:col-span-4 md:py-6 md:px-4 md:mx-4 md:my-4 md:border md:rounded-md md:shadow-md sm:col-span-4 sm:py-6 sm:px-4 sm:mx-4 sm:my-4 sm:border sm:rounded-sm sm:shadow-md">
           <div className="relative">
             <Image
