@@ -44,24 +44,24 @@ const NavBar = () => {
           </div>
           <div className="flex gap-6">
             <div className="flex gap-6 pt-2">
-              <Link href="/" title="Home">
+              <Link href='' title="Home">
                 Home
               </Link>
-              <Link href="/Features" title="Features">
+              <Link href='' title="Features">
                 Features
               </Link>
-              <Link href="/Community" title="Community">
+              <Link href='' title="Community">
                 Community
               </Link>
-              <Link href="/Blog" title="Blog">
+              <Link href='' title="Blog">
                 Blog
               </Link>
-              <Link href="/Pricing" title="Pricing">
+              <Link href='' title="Pricing">
                 Pricing
               </Link>
             </div>
             <Link
-              href="/Register"
+              href=''
               title="Register"
               className=" bg-green-500 text-white flex px-4 py-2 rounded-lg"
             >
@@ -87,24 +87,24 @@ const NavBar = () => {
           py-24 px-12"
         >
           <nav className="flex flex-col items-center justify-center font-inter xl:font-semibold xl:text-4xl lg:font-semibold lg:text-2xl lg:leading-10 md:font-semibold md:text-xl md:leading-10 sm:font-semibold sm:text-lg sm:leading-10 xs:font-semibold xs:text-sm xs:leading-10 xxs:font-semibold xxs:text-xs xxs:leading-10">
-            <Link href="/" title="Home">
+            <Link href='' title="Home">
               Home
             </Link>
-            <Link href="/Features" title="Features">
+            <Link href='' title="Features">
               Features
             </Link>
-            <Link href="/Community" title="Community">
+            <Link href='' title="Community">
               Community
             </Link>
-            <Link href="/Blog" title="Blog">
+            <Link href='' title="Blog">
               Blog
             </Link>
-            <Link href="/Pricing" title="Pricing">
+            <Link href='' title="Pricing">
               Pricing
             </Link>
 
             <Link
-              href="/Register"
+              href=''
               title="Register"
               className=" bg-green-700 text-white w-[120%] flex py-4 px-4 rounded-lg lg:flex lg:px-6 lg:py-2 lg:rounded-lg  md:flex md:px-6 md:py-2 md:rounded-lg sm:flex sm:px-6 sm:py-2 sm:rounded-lg "
             >

@@ -18,10 +18,7 @@ export default function FrontBar() {
           <p className="text-gray-600 pl-22 mb-8 ">
             where to go your bussiness as a photographer: site or social media?
           </p>
-          <Link
-            href="/"
-            className="bg-green-500 text-white py-4 px-6 mb-8 rounded-lg l"
-          >
+          <Link href='' className="bg-green-500 text-white py-4 px-6 mb-8 rounded-lg l">
             {" "}
             Register{" "}
           </Link>
