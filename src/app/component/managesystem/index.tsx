@@ -24,14 +24,14 @@ export default function ManageSystem() {
               alt="img1"
               width={50}
               height={50}
-              className="mb-2 rounded-lg mx-28 2xl:mx-40 lg:mx-24 md:mx-14 sm:mx-5"
+              className="mb-2 rounded-lg mx-20 2xl:mx-40 lg:mx-24 md:mx-14 sm:mx-5"
             />
             <Image
               src={peop}
               alt="img1"
               width={50}
               height={50}
-              className="mb-2 mx-28 rounded-lg lg:mx-24 2xl:mx-40 absolute top-0 lg:right-0 -left-4 z-10 md:mx-14 sm:mx-5"
+              className="mb-2 mx-20 rounded-lg lg:mx-24 2xl:mx-40 absolute top-0 lg:right-0 -left-4 z-10 md:mx-14 sm:mx-5"
             />
           </div>
           <h2 className="text-3xl font-semibold mb-1 font-inter text-gray-800 text-center md:text-xl sm:text-sm">
@@ -50,14 +50,14 @@ export default function ManageSystem() {
               alt="img1"
               width={50}
               height={50}
-              className="mb-2 mx-28 rounded-lg 2xl:mx-40 lg:mx-24 md:mx-14 sm:mx-5"
+              className="mb-2 mx-20 rounded-lg 2xl:mx-40 lg:mx-24 md:mx-14 sm:mx-5"
             />
             <Image
               src={peop}
               alt="img1"
               width={50}
               height={50}
-              className="mb-2 mx-28 rounded-lg lg:mx-24 2xl:mx-40 absolute top-0 lg:right-0 -left-4 z-10 md:mx-14 sm:mx-5"
+              className="mb-2 mx-20 rounded-lg lg:mx-24 2xl:mx-40 absolute top-0 lg:right-0 -left-4 z-10 md:mx-14 sm:mx-5"
             />
           </div>
           <h2 className="text-3xl font-semibold mb-1 font-inter text-gray-800 text-center lg:text-2xl lg:leading-6 md:text-xl sm:text-sm">
@@ -76,14 +76,14 @@ export default function ManageSystem() {
               alt="img1"
               width={50}
               height={50}
-              className="mb-2 mx-28 rounded-lg 2xl:mx-40 lg:mx-24 md:mx-24 sm:mx-5"
+              className="mb-2 mx-20 rounded-lg 2xl:mx-40 lg:mx-24 md:mx-24 sm:mx-5"
             />
             <Image
               src={peop}
               alt="img1"
               width={50}
               height={50}
-              className="mb-2 mx-28 rounded-lg 2xl:mx-40 lg:mx-24 absolute lg:right-0 top-0 -left-4 z-10 md:mx-14 sm:mx-5"
+              className="mb-2 mx-20 rounded-lg 2xl:mx-40 lg:mx-24 absolute lg:right-0 top-0 -left-4 z-10 md:mx-14 sm:mx-5"
             />
           </div>
           <h2 className="text-3xl font-semibold mb-1 font-inter text-gray-800 text-center lg:text-2xl lg:leading-6 md:text-xl sm:text-sm">
