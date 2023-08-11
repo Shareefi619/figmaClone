@@ -4,33 +4,6 @@ import Link from "next/link";
 import Image from "next/image";
 import { useState } from "react";
 import { motion } from "framer-motion";
-// interface MobileLink {
-//   href: string;
-//   className?: string;
-//   title:string;
-//   toggle: () => void;
-// }
-
-// const CustomMobileLink: React.FC<MobileLink> = ({
-//   href,
-//   className = "",
-//   toggle,
-//   title,
-// }) => {
-//   const handleClick = (): void => {
-//     toggle();
-//   };
-//   return (
-//     <button
-//       onClick={handleClick}
-//       className={`${className} relative group text-light dark:text-dark my-2`}
-//     >
-//       <span className="h-0.5 inline-block bg-light absolute left-0 -bottom-0.5 group-hover:w-full transition-[width] ease duration-300">
-//         &nbsp;
-//       </span>
-//     </button>
-//   );
-// };
 
 const NavBar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -39,10 +12,10 @@ const NavBar = () => {
     setIsOpen(!isOpen);
   };
   return (
-    <header className="w-full py-4 px-8 w-full lg:w-[90%]">
+    <header className="w-full py-4 px-8">
       <button
         aria-label="home-page"
-        className="flex-col justify-center items-center hidden lg:flex"
+        className="flex-col justify-center items-center flex lg:hidden"
         onClick={handleClick}
       >
         <span
@@ -61,7 +34,10 @@ const NavBar = () => {
           }`}
         ></span>
       </button>
-      <div className="lg:hidden">
+      <div className="absolute lg:hidden left-1/2 top-2 -translate-x-1/2">
+        <Image src="/logo.svg" alt="logo" width={150} height={50} />
+      </div>
+      <div className="hidden lg:block">
         <nav className="w-full h-14 flex justify-between items-center">
           <div>
             <Image src="/logo.svg" alt="logo" width={100} height={100} />
@@ -87,7 +63,7 @@ const NavBar = () => {
             <Link
               href="/Register"
               title="Register"
-              className=" bg-green-700 text-white flex px-6 py-2 rounded-lg"
+              className=" bg-green-500 text-white flex px-6 py-2 rounded-lg"
             >
               Register Now
               <Image
@@ -105,8 +81,8 @@ const NavBar = () => {
         <motion.div
           initial={{ scale: 0, opacity: 0, x: "-50%", y: "-50%" }}
           animate={{ scale: 1, opacity: 1 }}
-          className="min-w-[70vw] hidden lg:flex flex-col justify-between 
-           z-30 items-center text-white fixed sm:top-1/4 sm:left-1/4 md:top-1/4 md:left-1/4 lg:top-1/4
+          className="min-w-[70vw] lg:hidden flex-col justify-between
+           z-30 items-center text-white fixed sm:top-1/2 sm:left-1/2 md:top-1/2 md:left-1/2 lg:top-1/4
           lg:left-1/4 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-black/75 rounded-lg backdrop-blur-md
           py-24 px-12"
         >
@@ -127,26 +103,28 @@ const NavBar = () => {
               Pricing
             </Link>
 
-              <Link
-                href="/Register"
-                title="Register"
-                className="w-full bg-green-700 text-white flex px-6 py-2 rounded-lg"
-              >
-                Register Now
-                <Image
-                  src="/arrowright.svg"
-                  alt="icon"
-                  width={25}
-                  height={25}
-                  className=" text-white ml-3"
-                />
-              </Link>
+            <Link
+              href="/Register"
+              title="Register"
+              className=" bg-green-700 text-white flex px-6 py-2 rounded-lg"
+            >
+              Register Now
+              <Image
+                src="/arrowright.svg"
+                alt="icon"
+                width={25}
+                height={25}
+                className=" text-white ml-3"
+              />
+            </Link>
           </nav>
         </motion.div>
       ) : null}
-      {/* <div className="lg:absolute left-1/2 top-2 -translate-x-1/2 bg-red-500">
-        <Image src="/logo.svg" alt="logo" width={150} height={50} />
-      </div> */}
+      {/* {isOpen ? (
+        // <div className="flex left-1/2 top-2 -translate-x-1/2 bg-red-500">
+        //   <Image src="/logo.svg" alt="logo" width={150} height={50} />
+        // </div>
+      ) : null} */}
     </header>
   );
 };

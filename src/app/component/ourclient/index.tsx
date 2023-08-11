@@ -8,7 +8,7 @@ import logo5 from "../../../../public/Logo5.png"
 import logo6 from "../../../../public/Logo7.png"
 export default function Client() {
   return (
-    <div className="flex-row justify-center items-center my-12 w-full lg:w-[90%] 2xl:flex-row 2xl:justify-center 2xl:items-center">
+    <div className="flex-row justify-center items-center my-12 w-full">
     <div className="text-center">
       <h2 className="text-5xl font-semibold mb-2 font-inter text-gray-700">Our Clients</h2>
       <p className="text-gray-600 mb-2">We have been working with Fortune 500+ clients</p>
