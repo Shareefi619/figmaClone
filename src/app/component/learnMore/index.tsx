@@ -1,5 +1,5 @@
 import React from "react";
-import learnmoreimg from "../../../../public/icon.svg"
+import learnmoreimg from "public/icon.svg"
 import Image from "next/image";
 export default function LearnMore() {
   return (

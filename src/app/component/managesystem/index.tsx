@@ -1,10 +1,8 @@
 import React from "react";
 import Image from "next/image";
-import img1 from "../../../../public/m1.png";
-import rect from "../../../../public/rect.png";
-import peop from "../../../../public/people.png";
-import img2 from "../../../../public/m2.png";
-import img3 from "../../../../public/m3.png";
+import rect from "public/rect.png";
+import peop from "public/people.png";
+
 export default function ManageSystem() {
   return (
     <div className="w-full flex-col items-center justify-center my-12 lg:flex lg:flex-col lg:items-center lg:justify-center lg:my-12 md:flex-col md:items-center md:justify-center md:my-12 sm:flex-col sm:items-center sm:justify-center sm:my-12 sm:w-full">

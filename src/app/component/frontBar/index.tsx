@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import image from "../../../../public/Illustration.png";
+import image from "public/Illustration.png";
 import Link from "next/link";
 export default function FrontBar() {
   return (

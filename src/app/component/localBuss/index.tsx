@@ -1,9 +1,9 @@
 import React from "react";
 import Image from "next/image";
-import icon1 from "../../../../public/Icon1.svg";
-import icon2 from "../../../../public/Icon2.svg";
-import icon3 from "../../../../public/Icon3.svg";
-import icon4 from "../../../../public/Icon4.svg";
+import icon1 from "public/Icon1.svg";
+import icon2 from "public/Icon2.svg";
+import icon3 from "public/Icon3.svg";
+import icon4 from "public/Icon4.svg";
 export default function LocalBuss() {
   return (
     <div className=" w-full flex flex-col items-center justify-between p-4 lg:flex-col lg:items-center lg:justify-between lg:p-16 md:flex-col md:items-center md:justify-between md:p-16 sm:flex-col sm:items-center sm:justify-between sm:p-16 bg-aliceblue my-8">
