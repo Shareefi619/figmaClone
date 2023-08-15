@@ -6,7 +6,7 @@ import icon3 from "../../../../public/Icon3.svg";
 import icon4 from "../../../../public/Icon4.svg";
 export default function LocalBuss() {
   return (
-    <div className=" w-[100%] flex-start flex-col items-center justify-between p-4 lg:flex lg:flex-col lg:items-center lg:justify-between lg:p-16 md:flex md:flex-col md:items-center md:justify-between md:p-16 sm:flex sm:flex-col sm:items-center sm:justify-between sm:p-16 bg-aliceblue my-8 lg:w-full md:w-[750px]  sm:w-[672px]">
+    <div className=" w-full flex flex-col items-center justify-between p-4 lg:flex-col lg:items-center lg:justify-between lg:p-16 md:flex-col md:items-center md:justify-between md:p-16 sm:flex-col sm:items-center sm:justify-between sm:p-16 bg-aliceblue my-8">
       <div className="grid grid-cols-2 gap-4 mx-8 lg:grid lg:grid-cols-2 lg:gap-4 lg:mx-8 md:grid md:grid-cols-2 md:gap-4 md:mx-8 sm:grid sm:grid-cols-2 sm:gap-4 sm:mx-8">
         {/* Column 1 */}
         <div className="col-span-2 lg:col-span-1 md:col-span-1 sm:col-span-1">
@@ -36,7 +36,9 @@ export default function LocalBuss() {
                 <h2 className="font-inter text-lg font-semibold text-gray-700 sm:text-sm">
                   2,245,341
                 </h2>
-                <p className="font-inter text-sm text-gray-500 sm:text-sm">Member</p>
+                <p className="font-inter text-sm text-gray-500 sm:text-sm">
+                  Member
+                </p>
               </div>
             </div>
 
@@ -52,7 +54,9 @@ export default function LocalBuss() {
                 <h2 className="font-inter text-lg font-semibold text-gray-700 sm:text-sm">
                   2,245,341
                 </h2>
-                <p className="font-inter text-sm text-gray-500 sm:text-sm">Member</p>
+                <p className="font-inter text-sm text-gray-500 sm:text-sm">
+                  Member
+                </p>
               </div>
             </div>
 
@@ -68,7 +72,9 @@ export default function LocalBuss() {
                 <h2 className="font-inter text-lg font-semibold text-gray-700 sm:text-sm">
                   2,245,341
                 </h2>
-                <p className="font-inter text-sm text-gray-500 sm:text-sm">Member</p>
+                <p className="font-inter text-sm text-gray-500 sm:text-sm">
+                  Member
+                </p>
               </div>
             </div>
 
@@ -84,7 +90,9 @@ export default function LocalBuss() {
                 <h2 className="font-inter text-lg font-semibold text-gray-700 sm:text-sm">
                   2,245,341
                 </h2>
-                <p className="font-inter text-sm text-gray-500 sm:text-sm">Member</p>
+                <p className="font-inter text-sm text-gray-500 sm:text-sm">
+                  Member
+                </p>
               </div>
             </div>
           </div>

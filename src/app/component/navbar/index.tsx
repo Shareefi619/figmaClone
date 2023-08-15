@@ -12,10 +12,10 @@ const NavBar = () => {
     setIsOpen(!isOpen);
   };
   return (
-    <header className=" w-[100%] lg:w-full lg:py-4 lg:px-8 md:w-full md:py-4 md:px-8 sm:w-full sm:py-4 sm:px-8 ">
-      <button
+    <header className=" w-full lg:py-4 lg:px-8  md:py-4 md:px-8 sm:py-4 sm:px-8 ">
+    <button
         aria-label="home-page"
-        className="lg:flex-col lg:justify-center lg:items-center lg:hidden"
+        className="lg:flex-col lg:justify-center lg:items-center lg:hidden px-4 py-4"
         onClick={handleClick}
       >
         <span
@@ -87,26 +87,26 @@ const NavBar = () => {
           py-24 px-12"
         >
           <nav className="flex flex-col items-center justify-center font-inter xl:font-semibold xl:text-4xl lg:font-semibold lg:text-2xl lg:leading-10 md:font-semibold md:text-xl md:leading-10 sm:font-semibold sm:text-lg sm:leading-10 xs:font-semibold xs:text-sm xs:leading-10 xxs:font-semibold xxs:text-xs xxs:leading-10">
-            <Link href='' title="Home">
+            <Link href='' title="Home" className="my-2">
               Home
             </Link>
-            <Link href='' title="Features">
+            <Link href='' title="Features" className="my-2">
               Features
             </Link>
-            <Link href='' title="Community">
+            <Link href='' title="Community" className="my-2">
               Community
             </Link>
-            <Link href='' title="Blog">
+            <Link href='' title="Blog" className="my-2">
               Blog
             </Link>
-            <Link href='' title="Pricing">
+            <Link href='' title="Pricing" className="my-2">
               Pricing
             </Link>
 
             <Link
               href=''
               title="Register"
-              className=" bg-green-700 text-white w-[120%] flex py-4 px-4 rounded-lg lg:flex lg:px-6 lg:py-2 lg:rounded-lg  md:flex md:px-6 md:py-2 md:rounded-lg sm:flex sm:px-6 sm:py-2 sm:rounded-lg "
+              className=" bg-green-700 text-white flex py-4 my-2 px-4 rounded-lg md:px-6 md:py-2 md:rounded-lg sm:px-6 sm:py-2 sm:rounded-lg"
             >
               Register Now
               <Image
@@ -120,11 +120,7 @@ const NavBar = () => {
           </nav>
         </motion.div>
       ) : null}
-      {/* {isOpen ? (
-        // <div className="flex left-1/2 top-2 -translate-x-1/2 bg-red-500">
-        //   <Image src="/logo.svg" alt="logo" width={150} height={50} />
-        // </div>
-      ) : null} */}
+    
     </header>
   );
 };
