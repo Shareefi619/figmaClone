@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 import icon1 from "public/Icon1.svg";
 import icon2 from "public/Icon2.svg";
-import icon3 from "public/Icon3_1.svg";
+import icon3 from "public/icon3.svg";
 import icon4 from "public/Icon4.svg";
 export default function LocalBuss() {
   return (
