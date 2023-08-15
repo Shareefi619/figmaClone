@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 import icon1 from "public/Icon1.svg";
 import icon2 from "public/Icon2.svg";
-// import icon3 from "public/Icon3.svg";
+import icon3 from "public/Icon3.svg";
 import icon4 from "public/Icon4.svg";
 export default function LocalBuss() {
   return (
@@ -62,7 +62,7 @@ export default function LocalBuss() {
 
             <div className="col-span-1 flex items-center mx-6">
               <Image
-                src={icon4}
+                src={icon3}
                 alt="icon1"
                 width={70}
                 height={70}
